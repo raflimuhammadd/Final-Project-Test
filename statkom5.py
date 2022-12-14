@@ -42,10 +42,10 @@ print("----")
 
 # Hitung selang kepercayaan 95%
 ci_95 = 1.96 * simpangBaku / (n ** 0.5)
-print("Selang kepercayaan 95%:", mean - ci_95, "< µ <", mean + ci_95)
+print("Selang kepercayaan 95%:", mean - ci_95, " < µ < ", mean + ci_95)
 
 # Hitung selang kepercayaan 99%
 ci_99 = 2.58 * simpangBaku / (n ** 0.5)
-print("Selang kepercayaan 99%:", mean - ci_99, "< µ <", mean + ci_99)
+print("Selang kepercayaan 99%:", mean - ci_99, " < µ < ", mean + ci_99)
 
 print(mean - 2.58 * simpangBaku / (n ** 0.5))
